@@ -1,7 +1,13 @@
 BODY {
 	min-width: 335px;
-	background-color:#164b69;
 	overflow-x: hidden;
+	margin: 0;
+}
+
+#wrapper {
+	background-color:#164b69;
+	padding: 8px;
+	-webkit-border-radius: 5px;
 }
 
 body,
