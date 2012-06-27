@@ -1,6 +1,6 @@
 {
   "name": "My Cards For Trello",
-  "version": "1.9",
+  "version": "2.0",
   "manifest_version": 1,
   "description": "Lists cards assigned to you across all Trello boards",
   "browser_action": {

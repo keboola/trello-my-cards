@@ -2,11 +2,15 @@ BODY {
 	min-width: 335px;
 	overflow-x: hidden;
 	margin: 0;
+	padding: 8px;
 }
 
-#wrapper {
-	background-color:#164b69;
-	padding: 8px;
+#decoration {
+	position: fixed;
+	bottom: 0; top: 0; right: 0; left: 0;
+	z-index: -1;
+	-webkit-border-radius: 5px;
+	background-color: #164b69;
 	-webkit-border-radius: 5px;
 }
 
@@ -30,21 +34,16 @@ h1 {
 * Scrollbars
 */
 .custom-scroll::-webkit-scrollbar {
-    width:10px;
+    width:12px;
     height:8px;
-    -webkit-border-radius: 4px;
-}
-
-.custom-scroll::-webkit-scrollbar-track,
-.custom-scroll::-webkit-scrollbar-track-piece {
-    background-color:#164b69;
+    -webkit-border-radius: 0px;
 }
 
 .custom-scroll::-webkit-scrollbar-thumb {
-	background-color: #e3e3e3;
-	opacity: 0.9;
-	border: 2px solid #164b69;
-    -webkit-border-radius:4px;
+    background-color: #B8B8B8;
+    opacity: 0.9;
+    border: 2px solid #fff;
+    -webkit-border-radius:5px;
 }
 
 .clearfix{zoom:1;}
@@ -113,7 +112,7 @@ ul li {
 .filter .icon.delete {
 	position: absolute;
 	top: 8px;
-	right: 22px;
+	right: 12px;
 }
 .filter .search.empty .icon.delete {
 	display: none;
@@ -155,7 +154,7 @@ ul li {
 	font-size: 12px;
 	text-align: left;
 	margin-top: 5px;
-	margin-left: 20px;
+	margin-left: 16px;
 	color: gray;
 }
 

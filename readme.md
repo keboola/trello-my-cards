@@ -10,7 +10,7 @@ Several types of cards are displayed:
   * cards where I am mentioned
 
 This extension was inspired by [Trello Cards extension](https://chrome.google.com/webstore/detail/ofhppploglffgmbgmidejclkaipbjpac?hl=cs),
-extended by card types, filtering, sorting, due dates.
+extended by card types, filtering, search, sorting, due dates.
 
 # Warning
 
@@ -26,4 +26,5 @@ Installation from source files:
   * Copy file key.template.js to key.js
   * Go to https://trello.com/1/appKey/generate and copy created app key
   * Open file key.js in text editor and replace phrase "INSERT_YOUR_APP_KEY_HERE" with copied app key
+  * Compile coffescript into javascript. Run cake compile from projesct folder.
   * Continue here: http://code.google.com/chrome/extensions/getstarted.html#load
