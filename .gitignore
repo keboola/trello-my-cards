@@ -1,4 +1,5 @@
 .idea/*
+.DS_Store
 key.js
 trello.sublime-project
 trello.sublime-workspace
